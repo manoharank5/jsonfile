@@ -1,6 +1,4 @@
-{
-"translator": {
-            "type": "TabularTranslator",
+{ "type": "TabularTranslator",
             "mappings": [
                 {
                     "source": {
@@ -25,7 +23,7 @@
                         "type": "Int32",
                         "physicalType": "int"
                     }
-                },      
+                },
                 {
                     "source": {
                         "name": "onetimechargeafter",
@@ -292,18 +290,6 @@
                 },
                 {
                     "source": {
-                        "name": "updatetime",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
-                    },
-                    "sink": {
-                        "name": "UpdateTime",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
-                    }
-                },
-                {
-                    "source": {
                         "name": "paymentdueinterval",
                         "type": "Int32",
                         "physicalType": "INT32"
@@ -348,18 +334,6 @@
                         "name": "FirstInstallmentAfter",
                         "type": "Int32",
                         "physicalType": "int"
-                    }
-                },
-                {
-                    "source": {
-                        "name": "createtime",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
-                    },
-                    "sink": {
-                        "name": "CreateTime",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
                     }
                 },
                 {
@@ -460,18 +434,6 @@
                         "name": "AllowModOfManDisb",
                         "type": "Boolean",
                         "physicalType": "bit"
-                    }
-                },
-                {
-                    "source": {
-                        "name": "expirationdate",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
-                    },
-                    "sink": {
-                        "name": "ExpirationDate",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
                     }
                 },
                 {
@@ -752,18 +714,6 @@
                 },
                 {
                     "source": {
-                        "name": "draftintervaldaycount",
-                        "type": "Int32",
-                        "physicalType": "INT32"
-                    },
-                    "sink": {
-                        "name": "DraftInterval",
-                        "type": "Int32",
-                        "physicalType": "int"
-                    }
-                },
-                {
-                    "source": {
                         "name": "cancellationtarget",
                         "type": "Int32",
                         "physicalType": "INT32"
@@ -910,7 +860,6 @@
             "typeConversion": true,
             "typeConversionSettings": {
                 "allowDataTruncation": true,
-                "treatBooleanAsNumber": true
+                "treatBooleanAsNumber": false
             }
-}
-}
+        }
