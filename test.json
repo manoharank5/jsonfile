@@ -1,4 +1,5 @@
 {
+"translator": {
             "type": "TabularTranslator",
             "mappings": [
                 {
@@ -24,19 +25,7 @@
                         "type": "Int32",
                         "physicalType": "int"
                     }
-                },
-                {
-                    "source": {
-                        "name": "effectivedate",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
-                    },
-                    "sink": {
-                        "name": "EffectiveDate",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
-                    }
-                },
+                },      
                 {
                     "source": {
                         "name": "onetimechargeafter",
@@ -923,5 +912,5 @@
                 "allowDataTruncation": true,
                 "treatBooleanAsNumber": true
             }
-
+}
 }
