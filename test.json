@@ -1,5 +1,5 @@
-{
-"type": "TabularTranslator",
+ {
+            "type": "TabularTranslator",
             "mappings": [
                 {
                     "source": {
@@ -25,9 +25,20 @@
                         "physicalType": "int"
                     }
                 },
-              
                 {
-"source": {
+                    "source": {
+                        "name": "effectivedate",
+                        "type": "DateTime",
+                        "physicalType": "INT96"
+                    },
+                    "sink": {
+                        "name": "EffectiveDate",
+                        "type": "DateTime",
+                        "physicalType": "datetime2"
+                    }
+                },
+                {
+                    "source": {
                         "name": "onetimechargeafter",
                         "type": "Int32",
                         "physicalType": "INT32"
@@ -158,7 +169,18 @@
                         "physicalType": "bit"
                     }
                 },
-             
+                {
+                    "source": {
+                        "name": "publicid",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "PublicID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
                 {
                     "source": {
                         "name": "createoffsetsonbilledinvoices",
@@ -279,7 +301,18 @@
                         "physicalType": "int"
                     }
                 },
-               
+                {
+                    "source": {
+                        "name": "updatetime",
+                        "type": "DateTime",
+                        "physicalType": "INT96"
+                    },
+                    "sink": {
+                        "name": "UpdateTime",
+                        "type": "DateTime",
+                        "physicalType": "datetime2"
+                    }
+                },
                 {
                     "source": {
                         "name": "paymentdueinterval",
@@ -327,7 +360,19 @@
                         "type": "Int32",
                         "physicalType": "int"
                     }
-                },               
+                },
+                {
+                    "source": {
+                        "name": "createtime",
+                        "type": "DateTime",
+                        "physicalType": "INT96"
+                    },
+                    "sink": {
+                        "name": "CreateTime",
+                        "type": "DateTime",
+                        "physicalType": "datetime2"
+                    }
+                },
                 {
                     "source": {
                         "name": "invoiceitemplacementcutofftype",
@@ -430,6 +475,18 @@
                 },
                 {
                     "source": {
+                        "name": "expirationdate",
+                        "type": "DateTime",
+                        "physicalType": "INT96"
+                    },
+                    "sink": {
+                        "name": "ExpirationDate",
+                        "type": "DateTime",
+                        "physicalType": "datetime2"
+                    }
+                },
+                {
+                    "source": {
                         "name": "promiseexceptionssent",
                         "type": "Boolean",
                         "physicalType": "BOOLEAN"
@@ -500,7 +557,18 @@
                         "physicalType": "bigint"
                     }
                 },
-              
+                {
+                    "source": {
+                        "name": "namedenorm",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "NameDenorm",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
                 {
                     "source": {
                         "name": "createappractforautodisb",
@@ -695,6 +763,18 @@
                 },
                 {
                     "source": {
+                        "name": "draftintervaldaycount",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "DraftInterval",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
                         "name": "cancellationtarget",
                         "type": "Int32",
                         "physicalType": "INT32"
@@ -765,7 +845,18 @@
                         "physicalType": "int"
                     }
                 },
-             
+                {
+                    "source": {
+                        "name": "description",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "Description",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
                 {
                     "source": {
                         "name": "statementsentaftercycleclose",
@@ -789,7 +880,19 @@
                         "type": "Boolean",
                         "physicalType": "bit"
                     }
-                },               
+                },
+                {
+                    "source": {
+                        "name": "name",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "Name",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
                 {
                     "source": {
                         "name": "cycleclosedayofmonthlogic",
@@ -818,6 +921,6 @@
             "typeConversion": true,
             "typeConversionSettings": {
                 "allowDataTruncation": true,
-                "treatBooleanAsNumber": false
+                "treatBooleanAsNumber": true
             }
-}
+        }
