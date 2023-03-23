@@ -1,68 +1,100 @@
- {
+{"translator": {
             "type": "TabularTranslator",
             "mappings": [
                 {
                     "source": {
-                        "name": "locationautonumberseq"
+                        "name": "locationautonumberseq",
+                        "type": "Int64",
+                        "physicalType": "INT64"
                     },
                     "sink": {
-                        "name": "LocationAutoNumberSeq"
+                        "name": "LocationAutoNumberSeq",
+                        "type": "Int64",
+                        "physicalType": "bigint"
                     }
                 },
                 {
                     "source": {
-                        "name": "retired"
+                        "name": "retired",
+                        "type": "Int64",
+                        "physicalType": "INT64"
                     },
                     "sink": {
-                        "name": "Retired"
+                        "name": "Retired",
+                        "type": "Int64",
+                        "physicalType": "bigint"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_CAD7EvalFlag"
+                        "name": "WSIB_CAD7EvalFlag",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
                     },
                     "sink": {
-                        "name": "WSIB_CAD7EvalFlag"
+                        "name": "WSIB_CAD7EvalFlag",
+                        "type": "Boolean",
+                        "physicalType": "bit"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_StmtsHoldFlag"
+                        "name": "WSIB_StmtsHoldFlag",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
                     },
                     "sink": {
-                        "name": "WSIB_StmtsHoldFlag"
+                        "name": "WSIB_StmtsHoldFlag",
+                        "type": "Boolean",
+                        "physicalType": "bit"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_AccountStatus"
+                        "name": "WSIB_AccountStatus",
+                        "type": "Int32",
+                        "physicalType": "INT32"
                     },
                     "sink": {
-                        "name": "WSIB_AccountStatus"
+                        "name": "WSIB_AccountStatus",
+                        "type": "Int32",
+                        "physicalType": "int"
                     }
                 },
                 {
                     "source": {
-                        "name": "yearbusinessstarted"
+                        "name": "yearbusinessstarted",
+                        "type": "Int32",
+                        "physicalType": "INT32"
                     },
                     "sink": {
-                        "name": "YearBusinessStarted"
+                        "name": "YearBusinessStarted",
+                        "type": "Int32",
+                        "physicalType": "int"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_AccGoodStandingIndicator"
+                        "name": "WSIB_AccGoodStandingIndicator",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
                     },
                     "sink": {
-                        "name": "WSIB_AccGoodStandingIndicator"
+                        "name": "WSIB_AccGoodStandingIndicator",
+                        "type": "Boolean",
+                        "physicalType": "bit"
                     }
                 },
                 {
                     "source": {
-                        "name": "accountstatus"
+                        "name": "accountstatus",
+                        "type": "Int32",
+                        "physicalType": "INT32"
                     },
                     "sink": {
-                        "name": "AccountStatus"
+                        "name": "AccountStatus",
+                        "type": "Int32",
+                        "physicalType": "int"
                     }
                 },
                 {
@@ -403,10 +435,14 @@
                 },
                 {
                     "source": {
-                        "name": "originationdate"
+                        "name": "originationdate",
+                        "type": "DateTime",
+                        "physicalType": "INT96"
                     },
                     "sink": {
-                        "name": "OriginationDate"
+                        "name": "OriginationDate",
+                        "type": "DateTime",
+                        "physicalType": "datetime2"
                     }
                 },
                 {
@@ -464,4 +500,4 @@
                 "treatBooleanAsNumber": false
             }
         }
-    
+}
