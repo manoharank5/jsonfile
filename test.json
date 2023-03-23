@@ -290,18 +290,7 @@
                         "physicalType": "int"
                     }
                 },
-                {
-                    "source": {
-                        "name": "updatetime",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
-                    },
-                    "sink": {
-                        "name": "UpdateTime",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
-                    }
-                },
+               
                 {
                     "source": {
                         "name": "paymentdueinterval",
