@@ -1,5 +1,5 @@
 {
-  "type": "TabularTranslator",
+"type": "TabularTranslator",
             "mappings": [
                 {
                     "source": {
@@ -911,4 +911,4 @@
                 "allowDataTruncation": true,
                 "treatBooleanAsNumber": false
             }
-        }
+}
