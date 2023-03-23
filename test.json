@@ -51,26 +51,18 @@
                 },
                 {
                     "source": {
-                        "name": "WSIB_AccGoodStandingIndicator",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_AccGoodStandingIndicator"
                     },
                     "sink": {
-                        "name": "WSIB_AccGoodStandingIndicator",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_AccGoodStandingIndicator"
                     }
                 },
                 {
                     "source": {
-                        "name": "accountstatus",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "accountstatus"
                     },
                     "sink": {
-                        "name": "AccountStatus",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "AccountStatus"
                     }
                 },
                 {
@@ -411,14 +403,10 @@
                 },
                 {
                     "source": {
-                        "name": "originationdate",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
+                        "name": "originationdate"
                     },
                     "sink": {
-                        "name": "OriginationDate",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
+                        "name": "OriginationDate"
                     }
                 },
                 {
