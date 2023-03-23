@@ -441,18 +441,6 @@
                 },
                 {
                     "source": {
-                        "name": "expirationdate",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
-                    },
-                    "sink": {
-                        "name": "ExpirationDate",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
-                    }
-                },
-                {
-                    "source": {
                         "name": "promiseexceptionssent",
                         "type": "Boolean",
                         "physicalType": "BOOLEAN"
