@@ -338,8 +338,7 @@
                         "type": "Int32",
                         "physicalType": "int"
                     }
-                },
-               
+                },               
                 {
                     "source": {
                         "name": "invoiceitemplacementcutofftype",
