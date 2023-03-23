@@ -339,18 +339,7 @@
                         "physicalType": "int"
                     }
                 },
-                {
-                    "source": {
-                        "name": "createtime",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
-                    },
-                    "sink": {
-                        "name": "CreateTime",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
-                    }
-                },
+               
                 {
                     "source": {
                         "name": "invoiceitemplacementcutofftype",
