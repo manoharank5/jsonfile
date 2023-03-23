@@ -158,18 +158,7 @@
                         "physicalType": "bit"
                     }
                 },
-                {
-                    "source": {
-                        "name": "publicid",
-                        "type": "String",
-                        "physicalType": "UTF8"
-                    },
-                    "sink": {
-                        "name": "PublicID",
-                        "type": "String",
-                        "physicalType": "varchar"
-                    }
-                },
+             
                 {
                     "source": {
                         "name": "createoffsetsonbilledinvoices",
@@ -511,18 +500,7 @@
                         "physicalType": "bigint"
                     }
                 },
-                {
-                    "source": {
-                        "name": "namedenorm",
-                        "type": "String",
-                        "physicalType": "UTF8"
-                    },
-                    "sink": {
-                        "name": "NameDenorm",
-                        "type": "String",
-                        "physicalType": "varchar"
-                    }
-                },
+              
                 {
                     "source": {
                         "name": "createappractforautodisb",
@@ -787,18 +765,7 @@
                         "physicalType": "int"
                     }
                 },
-                {
-                    "source": {
-                        "name": "description",
-                        "type": "String",
-                        "physicalType": "UTF8"
-                    },
-                    "sink": {
-                        "name": "Description",
-                        "type": "String",
-                        "physicalType": "varchar"
-                    }
-                },
+             
                 {
                     "source": {
                         "name": "statementsentaftercycleclose",
@@ -822,19 +789,7 @@
                         "type": "Boolean",
                         "physicalType": "bit"
                     }
-                },
-                {
-                    "source": {
-                        "name": "name",
-                        "type": "String",
-                        "physicalType": "UTF8"
-                    },
-                    "sink": {
-                        "name": "Name",
-                        "type": "String",
-                        "physicalType": "varchar"
-                    }
-                },
+                },               
                 {
                     "source": {
                         "name": "cycleclosedayofmonthlogic",
