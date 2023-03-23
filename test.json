@@ -27,7 +27,6 @@
                 },
               
                 {
-                    "source": {
                         "name": "onetimechargeafter",
                         "type": "Int32",
                         "physicalType": "INT32"
