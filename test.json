@@ -399,18 +399,6 @@
                 },
                 {
                     "source": {
-                        "name": "frozensetid",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
-                    },
-                    "sink": {
-                        "name": "Frozen",
-                        "type": "Boolean",
-                        "physicalType": "bit"
-                    }
-                },
-                {
-                    "source": {
                         "name": "WSIB_MailHoldFlag",
                         "type": "Boolean",
                         "physicalType": "BOOLEAN"
@@ -492,6 +480,18 @@
                         "type": "Boolean",
                         "physicalType": "bit"
                     }
+                },
+                {
+                    "source": {
+                        "name": "frozensetid",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "Frozen",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
                 }
             ],
             "typeConversion": true,
@@ -500,4 +500,4 @@
                 "treatBooleanAsNumber": false
             }
         }
-}
+    }
