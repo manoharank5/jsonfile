@@ -3,12 +3,10 @@
             "mappings": [
                 {
                     "source": {
-                        "name": "locationautonumberseq",
-                     
+                        "name": "locationautonumberseq"                    
                     },
                     "sink": {
-                        "name": "LocationAutoNumberSeq",
-                        
+                        "name": "LocationAutoNumberSeq"                        
                     }
                 },
                 {
