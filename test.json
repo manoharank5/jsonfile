@@ -4,13 +4,11 @@
                 {
                     "source": {
                         "name": "locationautonumberseq",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                     
                     },
                     "sink": {
                         "name": "LocationAutoNumberSeq",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        
                     }
                 },
                 {
