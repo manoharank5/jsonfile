@@ -3,494 +3,330 @@
             "mappings": [
                 {
                    "source": {
-                    "name": "locationautonumberseq",
-                    "type": "Int64",
-                    "physicalType": "INT64"
+                    "name": "locationautonumberseq"
                 },
                 "sink": {
-                    "name": "LocationAutoNumberSeq",
-                    "type": "Int64",
-                    "physicalType": "bigint"
+                    "name": "LocationAutoNumberSeq"
                 }
                 },
                 {
                     "source": {
-                        "name": "retired",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "retired"
                     },
                     "sink": {
-                        "name": "Retired",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "Retired"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_CAD7EvalFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_CAD7EvalFlag"
                     },
                     "sink": {
-                        "name": "WSIB_CAD7EvalFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_CAD7EvalFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_StmtsHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_StmtsHoldFlag"
                     },
                     "sink": {
-                        "name": "WSIB_StmtsHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_StmtsHoldFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_AccountStatus",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "WSIB_AccountStatus"
                     },
                     "sink": {
-                        "name": "WSIB_AccountStatus",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "WSIB_AccountStatus"
                     }
                 },
                 {
                     "source": {
-                        "name": "yearbusinessstarted",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "yearbusinessstarted"
                     },
                     "sink": {
-                        "name": "YearBusinessStarted",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "YearBusinessStarted"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_AccGoodStandingIndicator",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_AccGoodStandingIndicator"
                     },
                     "sink": {
-                        "name": "WSIB_AccGoodStandingIndicator",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_AccGoodStandingIndicator"
                     }
                 },
                 {
                     "source": {
-                        "name": "accountstatus",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "accountstatus"
                     },
                     "sink": {
-                        "name": "AccountStatus",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "AccountStatus"
                     }
                 },
                 {
                     "source": {
-                        "name": "id",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "id"
                     },
                     "sink": {
-                        "name": "ID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "ID"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_AddCRA",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_AddCRA"
                     },
                     "sink": {
-                        "name": "WSIB_AddCRA",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_AddCRA"
                     }
                 },
                 {
                     "source": {
-                        "name": "beanversion",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "beanversion"
                     },
                     "sink": {
-                        "name": "BeanVersion",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "BeanVersion"
                     }
                 },
                 {
                     "source": {
-                        "name": "primarylanguage",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "primarylanguage"
                     },
                     "sink": {
-                        "name": "PrimaryLanguage",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "PrimaryLanguage"
                     }
                 },
                 {
                     "source": {
-                        "name": "lockingcolumn",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "lockingcolumn"
                     },
                     "sink": {
-                        "name": "LockingColumn",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "LockingColumn"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_WriteOffIndicator",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_WriteOffIndicator"
                     },
                     "sink": {
-                        "name": "WSIB_WriteOffIndicator",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_WriteOffIndicator"
                     }
                 },
                 {
                     "source": {
-                        "name": "accountnumber",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "accountnumber"
                     },
                     "sink": {
-                        "name": "AccountNumber",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "AccountNumber"
                     }
                 },
                 {
                     "source": {
-                        "name": "busopsdesc",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "busopsdesc"
                     },
                     "sink": {
-                        "name": "BusOpsDesc",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "BusOpsDesc"
                     }
                 },
                 {
                     "source": {
-                        "name": "industrycodeid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "industrycodeid"
                     },
                     "sink": {
-                        "name": "IndustryCodeID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "IndustryCodeID"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_BenefitToSched1",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_BenefitToSched1"
                     },
                     "sink": {
-                        "name": "WSIB_BenefitToSched1",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_BenefitToSched1"
                     }
                 },
                 {
                     "source": {
-                        "name": "linkcontacts",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "linkcontacts"
                     },
                     "sink": {
-                        "name": "LinkContacts",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "LinkContacts"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_PendingAuditAdjustment",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_PendingAuditAdjustment"
                     },
                     "sink": {
-                        "name": "WSIB_PendingAuditAdjustment",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_PendingAuditAdjustment"
                     }
                 },
                 {
                     "source": {
-                        "name": "accountnumberdenorm",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "accountnumberdenorm"
                     },
                     "sink": {
-                        "name": "AccountNumberDenorm",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "AccountNumberDenorm"
                     }
                 },
                 {
                     "source": {
-                        "name": "otherorgtypedescription",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "otherorgtypedescription"
                     },
                     "sink": {
-                        "name": "OtherOrgTypeDescription",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "OtherOrgTypeDescription"
                     }
                 },
                 {
                     "source": {
-                        "name": "publicid",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "publicid"
                     },
                     "sink": {
-                        "name": "PublicID",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "PublicID"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_AccidentCostStmtsHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_AccidentCostStmtsHoldFlag"
                     },
                     "sink": {
-                        "name": "WSIB_AccidentCostStmtsHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_AccidentCostStmtsHoldFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "createuserid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "createuserid"
                     },
                     "sink": {
-                        "name": "CreateUserID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "CreateUserID"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_ActiveFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_ActiveFlag"
                     },
                     "sink": {
-                        "name": "WSIB_ActiveFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_ActiveFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_NEEREvalFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_NEEREvalFlag"
                     },
                     "sink": {
-                        "name": "WSIB_NEEREvalFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_NEEREvalFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_OptInIndicator",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_OptInIndicator"
                     },
                     "sink": {
-                        "name": "WSIB_OptInIndicator",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_OptInIndicator"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_OrganizationFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_OrganizationFlag"
                     },
                     "sink": {
-                        "name": "WSIB_OrganizationFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_OrganizationFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "updateuserid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "updateuserid"
                     },
                     "sink": {
-                        "name": "UpdateUserID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "UpdateUserID"
                     }
                 },
                 {
                     "source": {
-                        "name": "accountorgtype",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "accountorgtype"
                     },
                     "sink": {
-                        "name": "AccountOrgType",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "AccountOrgType"
                     }
                 },
                 {
                     "source": {
-                        "name": "statebureaunum",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "statebureaunum"
                     },
                     "sink": {
-                        "name": "StateBureauNum",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "StateBureauNum"
                     }
                 },
                 {
                     "source": {
-                        "name": "updatetime",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
+                        "name": "updatetime"
                     },
                     "sink": {
-                        "name": "UpdateTime",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
+                        "name": "UpdateTime"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_MailHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_MailHoldFlag"
                     },
                     "sink": {
-                        "name": "WSIB_MailHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_MailHoldFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "createtime",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
+                        "name": "createtime"
                     },
                     "sink": {
-                        "name": "CreateTime",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
+                        "name": "CreateTime"
                     }
                 },
                 {
                     "source": {
-                        "name": "originationdate",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
+                        "name": "originationdate"
                     },
                     "sink": {
-                        "name": "OriginationDate",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
+                        "name": "OriginationDate"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_IJTA_ActiveFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_IJTA_ActiveFlag"
                     },
                     "sink": {
-                        "name": "WSIB_IJTA_ActiveFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_IJTA_ActiveFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_eStatementFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_eStatementFlag"
                     },
                     "sink": {
-                        "name": "WSIB_eStatementFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_eStatementFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_PRCRequiredIndicator",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_PRCRequiredIndicator"
                     },
                     "sink": {
-                        "name": "WSIB_PRCRequiredIndicator",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_PRCRequiredIndicator"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_PRCHighOverride",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_PRCHighOverride"
                     },
                     "sink": {
-                        "name": "WSIB_PRCHighOverride",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_PRCHighOverride"
                     }
                 },
                 {
                     "source": {
-                        "name": "frozensetid",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "frozensetid"
                     },
                     "sink": {
-                        "name": "Frozen",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "Frozen"
                     }
                 }
             ],
