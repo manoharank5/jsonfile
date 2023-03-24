@@ -1,4 +1,6 @@
-{"translator": {
+{
+"translator": {
+"translator": {
             "type": "TabularTranslator",
             "mappings": [
                 {
@@ -501,3 +503,4 @@
             }
         }
     }
+}
