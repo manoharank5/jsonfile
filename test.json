@@ -1,6 +1,4 @@
 {
-"translator": {
-"translator": {
             "type": "TabularTranslator",
             "mappings": [
                 {
@@ -502,5 +500,3 @@
                 "treatBooleanAsNumber": false
             }
         }
-    }
-}
