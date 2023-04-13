@@ -1,0 +1,636 @@
+{
+            "type": "TabularTranslator",
+            "mappings": [
+                {
+                    "source": {
+                        "name": "WSIB_StatementHoldFlag",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "WSIB_StatementHoldFlag",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "accountnamedenorm",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "AccountNameDenorm",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "retired",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "Retired",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "delinquencystatus",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "DelinquencyStatus",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_ApplyPhysFees",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "WSIB_ApplyPhysFees",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_AccountStatus",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "WSIB_AccountStatus",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "invoicedayofweek",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "InvoiceDayOfWeek",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "id",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "ID",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "beanversion",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "BeanVersion",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "accounttype",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "AccountType",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "organizationtypedenorm",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "OrganizationTypeDenorm",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "hiddentaccountcontainerid",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "HiddenTAccountContainerID",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "newpolicypaymentdistributable",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "NewPolicyPaymentDistributable",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "accountnumber",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "AccountNumber",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_PreviousStatementBalance",
+                        "type": "Double",
+                        "physicalType": "DOUBLE"
+                    },
+                    "sink": {
+                        "name": "WSIB_PreviousStatementBalance",
+                        "type": "Decimal",
+                        "physicalType": "decimal",
+                        "scale": 2,
+                        "precision": 13
+                    }
+                },
+                {
+                    "source": {
+                        "name": "invoicedeliverytype",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "InvoiceDeliveryType",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "distributionlimittype",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "DistributionLimitType",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_ApplyAdminFees",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "WSIB_ApplyAdminFees",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "closedate",
+                        "type": "DateTime",
+                        "physicalType": "INT96"
+                    },
+                    "sink": {
+                        "name": "CloseDate",
+                        "type": "DateTime",
+                        "physicalType": "datetime2"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "firsttwicepermthinvoicedom",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "FirstTwicePerMthInvoiceDOM",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "heldforinvoicesending",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "HeldForInvoiceSending",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "feindenorm",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "FEINDenorm",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "collecting",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "Collecting",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "accountnumberdenorm",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "AccountNumberDenorm",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "chargeheld",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "ChargeHeld",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "publicid",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "PublicID",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "securityzoneid",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "SecurityZoneID",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "billingplanid",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "BillingPlanID",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "fein",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "FEIN",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "createuserid",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "CreateUserID",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "everyotherweekinvoiceanchor",
+                        "type": "DateTime",
+                        "physicalType": "INT96"
+                    },
+                    "sink": {
+                        "name": "EveryOtherWeekInvoiceAnchor",
+                        "type": "DateTime",
+                        "physicalType": "datetime2"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_CapFlagFirm",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "WSIB_CapFlagFirm",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "segment",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "Segment",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "billinglevel",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "BillingLevel",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_OrganizationFlag",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "WSIB_OrganizationFlag",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "updateuserid",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "UpdateUserID",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_SuspenseAccount",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "WSIB_SuspenseAccount",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "delinquencyplanid",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "DelinquencyPlanID",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "dba",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "DBA",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "loadcommandid",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "LoadCommandID",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_eStatementFlag",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "WSIB_eStatementFlag",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "updatetime",
+                        "type": "DateTime",
+                        "physicalType": "INT96"
+                    },
+                    "sink": {
+                        "name": "UpdateTime",
+                        "type": "DateTime",
+                        "physicalType": "datetime2"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "invoicedayofmonth",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "InvoiceDayOfMonth",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_MailHoldFlag",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "WSIB_MailHoldFlag",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "allocationplanid",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "PolicyLevelPaymentOption",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "collectionagencyid",
+                        "type": "Int64",
+                        "physicalType": "INT64"
+                    },
+                    "sink": {
+                        "name": "CollectionAgencyID",
+                        "type": "Int64",
+                        "physicalType": "bigint"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "organizationtype",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "OrganizationType",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "createtime",
+                        "type": "DateTime",
+                        "physicalType": "INT96"
+                    },
+                    "sink": {
+                        "name": "CreateTime",
+                        "type": "DateTime",
+                        "physicalType": "datetime2"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "accountname",
+                        "type": "String",
+                        "physicalType": "UTF8"
+                    },
+                    "sink": {
+                        "name": "AccountName",
+                        "type": "String",
+                        "physicalType": "varchar"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "WSIB_OrganizationStatus",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "WSIB_OrganizationStatus",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "secondtwicepermthinvoicedom",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "SecondTwicePerMthInvoiceDOM",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                },
+                {
+                    "source": {
+                        "name": "billdateorduedatebilling",
+                        "type": "Int32",
+                        "physicalType": "INT32"
+                    },
+                    "sink": {
+                        "name": "BillDateOrDueDateBilling",
+                        "type": "Int32",
+                        "physicalType": "int"
+                    }
+                }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+                "allowDataTruncation": true,
+                "treatBooleanAsNumber": false
+            }
+        }
