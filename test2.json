@@ -299,134 +299,92 @@
                 },
                 {
                     "source": {
-                        "name": "delinquencyplanid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "delinquencyplanid"
+                      
                     },
                     "sink": {
-                        "name": "DelinquencyPlanID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "DelinquencyPlanID"
+                        
                     }
                 },
                 {
                     "source": {
-                        "name": "dba",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "dba"
                     },
                     "sink": {
-                        "name": "DBA",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "DBA"
                     }
                 },
                 {
                     "source": {
-                        "name": "loadcommandid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "loadcommandid"
                     },
                     "sink": {
-                        "name": "LoadCommandID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "LoadCommandID"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_eStatementFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_eStatementFlag"
                     },
                     "sink": {
-                        "name": "WSIB_eStatementFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_eStatementFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "updatetime",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
+                        "name": "updatetime"
                     },
                     "sink": {
-                        "name": "UpdateTime",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
+                        "name": "UpdateTime"
                     }
                 },
                 {
                     "source": {
-                        "name": "invoicedayofmonth",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "invoicedayofmonth"
                     },
                     "sink": {
-                        "name": "InvoiceDayOfMonth",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "InvoiceDayOfMonth"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_MailHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_MailHoldFlag"
                     },
                     "sink": {
-                        "name": "WSIB_MailHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_MailHoldFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "allocationplanid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "allocationplanid"
                     },
                     "sink": {
-                        "name": "PolicyLevelPaymentOption",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "PolicyLevelPaymentOption"
                     }
                 },
                 {
                     "source": {
-                        "name": "collectionagencyid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "collectionagencyid"
                     },
                     "sink": {
-                        "name": "CollectionAgencyID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "CollectionAgencyID"
                     }
                 },
                 {
                     "source": {
-                        "name": "organizationtype",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "organizationtype"
                     },
                     "sink": {
-                        "name": "OrganizationType",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "OrganizationType"
                     }
                 },
                 {
                     "source": {
-                        "name": "createtime",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
+                        "name": "createtime"
                     },
                     "sink": {
-                        "name": "CreateTime",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
+                        "name": "CreateTime"
                     }
                 },
                 {
