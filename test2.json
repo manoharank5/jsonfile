@@ -1,0 +1,423 @@
+{
+ "translator": {
+        "type": "TabularTranslator",
+        "mappings": [
+            {
+                "source": {
+                    "name": "delinquencyplanid"
+                },
+                "sink": {
+                    "name": "DelinquencyPlanID"
+                }
+            },
+            {
+                "source": {
+                    "name": "newpolicypaymentdistributable"
+                },
+                "sink": {
+                    "name": "NewPolicyPaymentDistributable"
+                }
+            },
+            {
+                "source": {
+                    "name": "collectionagencyid"
+                },
+                "sink": {
+                    "name": "CollectionAgencyID"
+                }
+            },
+            {
+                "source": {
+                    "name": "publicid"
+                },
+                "sink": {
+                    "name": "PublicID"
+                }
+            },
+            {
+                "source": {
+                    "name": "organizationtypedenorm"
+                },
+                "sink": {
+                    "name": "OrganizationTypeDenorm"
+                }
+            },
+            {
+                "source": {
+                    "name": "feindenorm"
+                },
+                "sink": {
+                    "name": "FEINDenorm"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_OrganizationStatus"
+                },
+                "sink": {
+                    "name": "WSIB_OrganizationStatus"
+                }
+            },
+            {
+                "source": {
+                    "name": "hiddentaccountcontainerid"
+                },
+                "sink": {
+                    "name": "HiddenTAccountContainerID"
+                }
+            },
+            {
+                "source": {
+                    "name": "closedate"
+                },
+                "sink": {
+                    "name": "CloseDate"
+                }
+            },
+            {
+                "source": {
+                    "name": "updatetime"
+                },
+                "sink": {
+                    "name": "UpdateTime"
+                }
+            },
+            {
+                "source": {
+                    "name": "chargeheld"
+                },
+                "sink": {
+                    "name": "ChargeHeld"
+                }
+            },
+            {
+                "source": {
+                    "name": "accountnumber"
+                },
+                "sink": {
+                    "name": "AccountNumber"
+                }
+            },
+            {
+                "source": {
+                    "name": "invoicedayofweek"
+                },
+                "sink": {
+                    "name": "InvoiceDayOfWeek"
+                }
+            },
+            {
+                "source": {
+                    "name": "retired"
+                },
+                "sink": {
+                    "name": "Retired"
+                }
+            },
+            {
+                "source": {
+                    "name": "fein"
+                },
+                "sink": {
+                    "name": "FEIN"
+                }
+            },
+            {
+                "source": {
+                    "name": "billinglevel"
+                },
+                "sink": {
+                    "name": "BillingLevel"
+                }
+            },
+            {
+                "source": {
+                    "name": "accountnamedenorm"
+                },
+                "sink": {
+                    "name": "AccountNameDenorm"
+                }
+            },
+            {
+                "source": {
+                    "name": "securityzoneid"
+                },
+                "sink": {
+                    "name": "SecurityZoneID"
+                }
+            },
+            {
+                "source": {
+                    "name": "firsttwicepermthinvoicedom"
+                },
+                "sink": {
+                    "name": "FirstTwicePerMthInvoiceDOM"
+                }
+            },
+            {
+                "source": {
+                    "name": "updateuserid"
+                },
+                "sink": {
+                    "name": "UpdateUserID"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_AccountStatus"
+                },
+                "sink": {
+                    "name": "WSIB_AccountStatus"
+                }
+            },
+            {
+                "source": {
+                    "name": "billdateorduedatebilling"
+                },
+                "sink": {
+                    "name": "BillDateOrDueDateBilling"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_ApplyAdminFees"
+                },
+                "sink": {
+                    "name": "WSIB_ApplyAdminFees"
+                }
+            },
+            {
+                "source": {
+                    "name": "collecting"
+                },
+                "sink": {
+                    "name": "Collecting"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_StatementHoldFlag"
+                },
+                "sink": {
+                    "name": "WSIB_StatementHoldFlag"
+                }
+            },
+            {
+                "source": {
+                    "name": "createtime"
+                },
+                "sink": {
+                    "name": "CreateTime"
+                }
+            },
+            {
+                "source": {
+                    "name": "secondtwicepermthinvoicedom"
+                },
+                "sink": {
+                    "name": "SecondTwicePerMthInvoiceDOM"
+                }
+            },
+            {
+                "source": {
+                    "name": "heldforinvoicesending"
+                },
+                "sink": {
+                    "name": "HeldForInvoiceSending"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_PreviousStatementBalance"
+                },
+                "sink": {
+                    "name": "WSIB_PreviousStatementBalance"
+                }
+            },
+            {
+                "source": {
+                    "name": "organizationtype"
+                },
+                "sink": {
+                    "name": "OrganizationType"
+                }
+            },
+            {
+                "source": {
+                    "name": "billingplanid"
+                },
+                "sink": {
+                    "name": "BillingPlanID"
+                }
+            },
+            {
+                "source": {
+                    "name": "segment"
+                },
+                "sink": {
+                    "name": "Segment"
+                }
+            },
+            {
+                "source": {
+                    "name": "createuserid"
+                },
+                "sink": {
+                    "name": "CreateUserID"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_OrganizationFlag"
+                },
+                "sink": {
+                    "name": "WSIB_OrganizationFlag"
+                }
+            },
+            {
+                "source": {
+                    "name": "everyotherweekinvoiceanchor"
+                },
+                "sink": {
+                    "name": "EveryOtherWeekInvoiceAnchor"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_ApplyPhysFees"
+                },
+                "sink": {
+                    "name": "WSIB_ApplyPhysFees"
+                }
+            },
+            {
+                "source": {
+                    "name": "beanversion"
+                },
+                "sink": {
+                    "name": "BeanVersion"
+                }
+            },
+            {
+                "source": {
+                    "name": "delinquencystatus"
+                },
+                "sink": {
+                    "name": "DelinquencyStatus"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_MailHoldFlag"
+                },
+                "sink": {
+                    "name": "WSIB_MailHoldFlag"
+                }
+            },
+            {
+                "source": {
+                    "name": "id"
+                },
+                "sink": {
+                    "name": "ID"
+                }
+            },
+            {
+                "source": {
+                    "name": "invoicedeliverytype"
+                },
+                "sink": {
+                    "name": "InvoiceDeliveryType"
+                }
+            },
+            {
+                "source": {
+                    "name": "accounttype"
+                },
+                "sink": {
+                    "name": "AccountType"
+                }
+            },
+            {
+                "source": {
+                    "name": "dba"
+                },
+                "sink": {
+                    "name": "DBA"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_CapFlagFirm"
+                },
+                "sink": {
+                    "name": "WSIB_CapFlagFirm"
+                }
+            },
+            {
+                "source": {
+                    "name": "loadcommandid"
+                },
+                "sink": {
+                    "name": "LoadCommandID"
+                }
+            },
+            {
+                "source": {
+                    "name": "accountnumberdenorm"
+                },
+                "sink": {
+                    "name": "AccountNumberDenorm"
+                }
+            },
+            {
+                "source": {
+                    "name": "allocationplanid"
+                },
+                "sink": {
+                    "name": "PolicyLevelPaymentOption"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_SuspenseAccount"
+                },
+                "sink": {
+                    "name": "WSIB_SuspenseAccount"
+                }
+            },
+            {
+                "source": {
+                    "name": "accountname"
+                },
+                "sink": {
+                    "name": "AccountName"
+                }
+            },
+            {
+                "source": {
+                    "name": "WSIB_eStatementFlag"
+                },
+                "sink": {
+                    "name": "WSIB_eStatementFlag"
+                }
+            },
+            {
+                "source": {
+                    "name": "distributionlimittype"
+                },
+                "sink": {
+                    "name": "DistributionLimitType"
+                }
+            },
+            {
+                "source": {
+                    "name": "invoicedayofmonth"
+                },
+                "sink": {
+                    "name": "InvoiceDayOfMonth"
+                }
+            }
+        ]
+    }
+}
