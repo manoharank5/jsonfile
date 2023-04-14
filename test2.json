@@ -43,388 +43,258 @@
                 },
                 {
                     "source": {
-                        "name": "WSIB_AccountStatus",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "WSIB_AccountStatus"
                     },
                     "sink": {
-                        "name": "WSIB_AccountStatus",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "WSIB_AccountStatus"
                     }
                 },
                 {
                     "source": {
-                        "name": "invoicedayofweek",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "invoicedayofweek"
                     },
                     "sink": {
-                        "name": "InvoiceDayOfWeek",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "InvoiceDayOfWeek"
                     }
                 },
                 {
                     "source": {
-                        "name": "id",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "id"
                     },
                     "sink": {
-                        "name": "ID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "ID"
                     }
                 },
                 {
                     "source": {
-                        "name": "beanversion",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "beanversion"
                     },
                     "sink": {
-                        "name": "BeanVersion",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "BeanVersion"
                     }
                 },
                 {
                     "source": {
-                        "name": "accounttype",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "accounttype"
                     },
                     "sink": {
-                        "name": "AccountType",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "AccountType"
                     }
                 },
                 {
                     "source": {
-                        "name": "organizationtypedenorm",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "organizationtypedenorm"
                     },
                     "sink": {
-                        "name": "OrganizationTypeDenorm",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "OrganizationTypeDenorm"
                     }
                 },
                 {
                     "source": {
-                        "name": "hiddentaccountcontainerid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "hiddentaccountcontainerid"
                     },
                     "sink": {
-                        "name": "HiddenTAccountContainerID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "HiddenTAccountContainerID"
                     }
                 },
                 {
                     "source": {
-                        "name": "newpolicypaymentdistributable",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "newpolicypaymentdistributable"
                     },
                     "sink": {
-                        "name": "NewPolicyPaymentDistributable",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "NewPolicyPaymentDistributable"
                     }
                 },
                 {
                     "source": {
-                        "name": "accountnumber",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "accountnumber"
                     },
                     "sink": {
-                        "name": "AccountNumber",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "AccountNumber"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_PreviousStatementBalance",
-                        "type": "Double",
-                        "physicalType": "DOUBLE"
+                        "name": "WSIB_PreviousStatementBalance"
                     },
                     "sink": {
-                        "name": "WSIB_PreviousStatementBalance",
-                        "type": "Decimal",
-                        "physicalType": "decimal",
-                        "scale": 2,
-                        "precision": 13
+                        "name": "WSIB_PreviousStatementBalance"
                     }
                 },
                 {
                     "source": {
-                        "name": "invoicedeliverytype",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "invoicedeliverytype"
                     },
                     "sink": {
-                        "name": "InvoiceDeliveryType",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "InvoiceDeliveryType"
                     }
                 },
                 {
                     "source": {
-                        "name": "distributionlimittype",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "distributionlimittype"
                     },
                     "sink": {
-                        "name": "DistributionLimitType",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "DistributionLimitType"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_ApplyAdminFees",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_ApplyAdminFees"
                     },
                     "sink": {
-                        "name": "WSIB_ApplyAdminFees",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_ApplyAdminFees"
                     }
                 },
                 {
                     "source": {
-                        "name": "closedate",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
+                        "name": "closedate"
                     },
                     "sink": {
-                        "name": "CloseDate",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
+                        "name": "CloseDate"
                     }
                 },
                 {
                     "source": {
-                        "name": "firsttwicepermthinvoicedom",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "firsttwicepermthinvoicedom"
                     },
                     "sink": {
-                        "name": "FirstTwicePerMthInvoiceDOM",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "FirstTwicePerMthInvoiceDOM"
                     }
                 },
                 {
                     "source": {
-                        "name": "heldforinvoicesending",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "heldforinvoicesending"
                     },
                     "sink": {
-                        "name": "HeldForInvoiceSending",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "HeldForInvoiceSending"
                     }
                 },
                 {
                     "source": {
-                        "name": "feindenorm",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "feindenorm"
                     },
                     "sink": {
-                        "name": "FEINDenorm",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "FEINDenorm"
                     }
                 },
                 {
                     "source": {
-                        "name": "collecting",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "collecting"
                     },
                     "sink": {
-                        "name": "Collecting",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "Collecting"
                     }
                 },
                 {
                     "source": {
-                        "name": "accountnumberdenorm",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "accountnumberdenorm"
                     },
                     "sink": {
-                        "name": "AccountNumberDenorm",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "AccountNumberDenorm"
                     }
                 },
                 {
                     "source": {
-                        "name": "chargeheld",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "chargeheld"
                     },
                     "sink": {
-                        "name": "ChargeHeld",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "ChargeHeld"
                     }
                 },
                 {
                     "source": {
-                        "name": "publicid",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "publicid"
                     },
                     "sink": {
-                        "name": "PublicID",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "PublicID"
                     }
                 },
                 {
                     "source": {
-                        "name": "securityzoneid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "securityzoneid"
                     },
                     "sink": {
-                        "name": "SecurityZoneID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "SecurityZoneID"
                     }
                 },
                 {
                     "source": {
-                        "name": "billingplanid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "billingplanid"
                     },
                     "sink": {
-                        "name": "BillingPlanID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "BillingPlanID"
                     }
                 },
                 {
                     "source": {
-                        "name": "fein",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "fein"
                     },
                     "sink": {
-                        "name": "FEIN",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "FEIN"
                     }
                 },
                 {
                     "source": {
-                        "name": "createuserid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "createuserid"
                     },
                     "sink": {
-                        "name": "CreateUserID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "CreateUserID"
                     }
                 },
                 {
                     "source": {
-                        "name": "everyotherweekinvoiceanchor",
-                        "type": "DateTime",
-                        "physicalType": "INT96"
+                        "name": "everyotherweekinvoiceanchor"
                     },
                     "sink": {
-                        "name": "EveryOtherWeekInvoiceAnchor",
-                        "type": "DateTime",
-                        "physicalType": "datetime2"
+                        "name": "EveryOtherWeekInvoiceAnchor"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_CapFlagFirm",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_CapFlagFirm"
                     },
                     "sink": {
-                        "name": "WSIB_CapFlagFirm",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_CapFlagFirm"
                     }
                 },
                 {
                     "source": {
-                        "name": "segment",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "segment"
                     },
                     "sink": {
-                        "name": "Segment",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "Segment"
                     }
                 },
                 {
                     "source": {
-                        "name": "billinglevel",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "billinglevel"
                     },
                     "sink": {
-                        "name": "BillingLevel",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "BillingLevel"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_OrganizationFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_OrganizationFlag"
                     },
                     "sink": {
-                        "name": "WSIB_OrganizationFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_OrganizationFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "updateuserid",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "updateuserid"
                     },
                     "sink": {
-                        "name": "UpdateUserID",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "UpdateUserID"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_SuspenseAccount",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_SuspenseAccount"
                     },
                     "sink": {
-                        "name": "WSIB_SuspenseAccount",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_SuspenseAccount"
                     }
                 },
                 {
