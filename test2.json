@@ -195,11 +195,15 @@
             },
             {
                 "source": {
-                    "name": "WSIB_StatementHoldFlag"
-                },
-                "sink": {
-                    "name": "WSIB_StatementHoldFlag"
-                }
+                        "name": "WSIB_StatementHoldFlag",
+                        "type": "Boolean",
+                        "physicalType": "BOOLEAN"
+                    },
+                    "sink": {
+                        "name": "WSIB_StatementHoldFlag",
+                        "type": "Boolean",
+                        "physicalType": "bit"
+                    }
             },
             {
                 "source": {
