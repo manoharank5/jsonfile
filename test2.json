@@ -389,50 +389,34 @@
                 },
                 {
                     "source": {
-                        "name": "accountname",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "accountname"
                     },
                     "sink": {
-                        "name": "AccountName",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "AccountName"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_OrganizationStatus",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "WSIB_OrganizationStatus"
                     },
                     "sink": {
-                        "name": "WSIB_OrganizationStatus",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "WSIB_OrganizationStatus"
                     }
                 },
                 {
                     "source": {
-                        "name": "secondtwicepermthinvoicedom",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "secondtwicepermthinvoicedom"
                     },
                     "sink": {
-                        "name": "SecondTwicePerMthInvoiceDOM",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "SecondTwicePerMthInvoiceDOM"
                     }
                 },
                 {
                     "source": {
-                        "name": "billdateorduedatebilling",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "billdateorduedatebilling"
                     },
                     "sink": {
-                        "name": "BillDateOrDueDateBilling",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "BillDateOrDueDateBilling"
                     }
                 }
             ],
