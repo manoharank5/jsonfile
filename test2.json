@@ -3,62 +3,42 @@
             "mappings": [
                 {
                     "source": {
-                        "name": "WSIB_StatementHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_StatementHoldFlag"
                     },
                     "sink": {
-                        "name": "WSIB_StatementHoldFlag",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_StatementHoldFlag"
                     }
                 },
                 {
                     "source": {
-                        "name": "accountnamedenorm",
-                        "type": "String",
-                        "physicalType": "UTF8"
+                        "name": "accountnamedenorm"
                     },
                     "sink": {
-                        "name": "AccountNameDenorm",
-                        "type": "String",
-                        "physicalType": "varchar"
+                        "name": "AccountNameDenorm"
                     }
                 },
                 {
                     "source": {
-                        "name": "retired",
-                        "type": "Int64",
-                        "physicalType": "INT64"
+                        "name": "retired"
                     },
                     "sink": {
-                        "name": "Retired",
-                        "type": "Int64",
-                        "physicalType": "bigint"
+                        "name": "Retired"
                     }
                 },
                 {
                     "source": {
-                        "name": "delinquencystatus",
-                        "type": "Int32",
-                        "physicalType": "INT32"
+                        "name": "delinquencystatus"
                     },
                     "sink": {
-                        "name": "DelinquencyStatus",
-                        "type": "Int32",
-                        "physicalType": "int"
+                        "name": "DelinquencyStatus"
                     }
                 },
                 {
                     "source": {
-                        "name": "WSIB_ApplyPhysFees",
-                        "type": "Boolean",
-                        "physicalType": "BOOLEAN"
+                        "name": "WSIB_ApplyPhysFees"
                     },
                     "sink": {
-                        "name": "WSIB_ApplyPhysFees",
-                        "type": "Boolean",
-                        "physicalType": "bit"
+                        "name": "WSIB_ApplyPhysFees"
                     }
                 },
                 {
